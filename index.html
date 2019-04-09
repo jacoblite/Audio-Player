@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+    <div id="audio-image">
+        <img class="cover">
+    </div>
+    <div id="audio-player">
+        <div id="audio-info">
+        <span class="artist"> </span> - <span class="title"></span>
+        </div>
+        <input id="volume" type="range" min="0" max="10" value="4">
+        <br>
+        <div id="buttons">
+        <span>
+            <button id="prev"></button>
+            <button id="play"></button>
+            <button id="pause"></button>
+            <button id="stop"></button>
+            <button id="next"></button>
+        </span>
+        </div>
+        <div class="clearfix"></div>
+        <div id="tracker">
+            <div id="progressBar">
+                <span id="progress"></span>
+            </div>
+            <span id="duration"></span>
+        </div>
+        <div class="clearfix"></div>
+        <ul id="playlist" class="hidden">
+            <li song="The Chase (feat. Kadhja Bonet).mp3" cover="oxnard.jpg" artist="Anderson .Paak">The Chase (feat. Kadhja Bonet).mp3</li>
+            <li song="Headlow (feat. Norelle).mp3" cover="oxnard.jpg" artist="Anderson .Paak">Headlow (feat. Norelle).mp3</li>
+            <li song="Tints (feat. Kendrick Lamar).mp3" cover="oxnard.jpg" artist="Anderson .Paak">Tints (feat. Kendrick Lamar).mp3</li>
+            <li song="Who R U_.mp3" cover="oxnard.jpg" artist="Anderson .Paak">Who R U_.mp3</li>
+            <li song="6 Summers.mp3" cover="oxnard.jpg" artist="Anderson .Paak">6 Summers.mp3</li>
+            <li song="Saviers Road.mp3" cover="oxnard.jpg" artist="Anderson .Paak">Saviers Road.mp3</li>
+            <li song="Smile_Petty.mp3" cover="oxnard.jpg" artist="Anderson .Paak">Smile_Petty.mp3</li>
+            <li song="Mansa Musa (feat. Dr. Dre & Cocoa Sarai).mp3" cover="oxnard.jpg" artist="Anderson .Paak">Mansa Musa (feat. Dr. Dre & Cocoa Sarai).mp3</li>
+            <li song="Brother's Keeper (feat. Pusha T).mp3" cover="oxnard.jpg" artist="Anderson .Paak">Brother's Keeper (feat. Pusha T).mp3</li>
+            <li song="Anywhere (feat. Snoop Dogg & The Last Artful, Dodgr).mp3" cover="oxnard.jpg" artist="Anderson .Paak">Anywhere (feat. Snoop Dogg & The Last Artful, Dodgr).mp3</li>
+            <li song="Trippy (feat. J. Cole).mp3" cover="oxnard.jpg" artist="Anderson .Paak">Trippy (feat. J. Cole).mp3</li>
+            <li song="Cheers (feat. Q-Tip).mp3" cover="oxnard.jpg" artist="Anderson .Paak">Cheers (Ft. Q-Tip).mp3</li>
+            <li song="Sweet Chick (feat. BJ The Chicago Kid).mp3" cover="oxnard.jpg" artist="Anderson .Paak">Sweet Chick (feat. BJ The Chicago Kid).mp3</li>
+            <li song="Left To Right.mp3" cover="oxnard.jpg" artist="Anderson .Paak">Left To Right.mp3</li>
+        </ul>
+    </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
